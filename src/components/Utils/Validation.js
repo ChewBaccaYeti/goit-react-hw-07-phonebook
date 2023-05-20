@@ -17,6 +17,7 @@ const phoneNumberMask = [
   /\d/,
   /\d/,
   /\d/,
+  /\d/,
 ];
 
 export { ContactSchema, phoneNumberMask };
