@@ -2,9 +2,9 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   margin: 0;
-  padding: 30px;
-  min-width: 360px;
-  border-radius: 30px;
+  padding: 25px;
+  min-width: 320px;
+  border-radius: 20px;
 
-  background-color: #1966d1;
+  background-color: #73c6e2;
 `;

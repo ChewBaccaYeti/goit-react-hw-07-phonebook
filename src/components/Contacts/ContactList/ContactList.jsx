@@ -1,6 +1,6 @@
+import { useContacts } from 'hooks/useContacts';
 import { ListItem } from '../ContactItem/ContactItem';
 import { List } from './ContactList.styled';
-import { useContacts } from 'components/hooks/useContacts';
 
 export const ContactList = () => {
   const contacts = useContacts();

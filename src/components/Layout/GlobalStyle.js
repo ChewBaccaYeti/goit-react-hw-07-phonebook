@@ -1,7 +1,9 @@
 import { createGlobalStyle } from 'styled-components';
 import 'modern-normalize';
 
-export const GlobalStyle = createGlobalStyle`body {
+export const GlobalStyle = createGlobalStyle`
+
+body {
   display: flex;
   justify-content: center;
   margin: 0;
@@ -35,11 +37,11 @@ input {
 }
 
 button {
-  font-size: 16px;
+  font-size: 12px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  color: black;
+  color: #ffffff;
 }
 
 h1,
@@ -54,4 +56,6 @@ p {
 span {
   font-size: 12px;
   color: red;
-}`;
+}
+
+`;
